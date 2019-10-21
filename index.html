@@ -1,0 +1,281 @@
+<html>
+<head>
+    <title>Clave</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style> 
+    html { 
+    width:100%; 
+    height:100%; 
+    background: black center center no-repeat;
+    }
+    .center {
+    width: 350px;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -175px;
+    margin-top: -300px;
+    }
+    .colors {
+        background: black;
+        color: white;
+    }
+    .border { 
+        border: 20px solid transparent;
+        padding: 15px;
+        -webkit-border-image: url(pagina.jpg) 30 round; /* Safari 3.1-5 */
+        -o-border-image: url(pagina.jpg) 30 round; /* Opera 11-12.1 */
+        border-image: url(pagina.jpg) 80 stretch;
+    }
+
+    .textcenter {
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 30px;
+    }
+
+    #ellink{
+        text-decoration: none;
+        color: white;
+        font-weight: normal;
+    }
+    </style>
+    
+    <!-- PROCESSING -->
+		<script src="../processing-js-master/processing.js"></script> 
+
+</head>
+
+
+
+
+<body class="border colors">
+
+<div id="contenedor">
+
+
+
+
+
+
+<div class="cuerpo">
+
+<section> 
+    <div class="center">
+        <div id="content" >
+            <img src="reloj222.gif"/>
+            <p id="timer" class="textcenter">_ </p>
+            <img src="ojo.png"/>
+          <!--   <p id="timer" class="textcenter">El <a id="ellink" href='https://www.facebook.com/groups/2519726608167407/?ref=bookmarks'>pájaro</a> es la clave</p>
+           <p id="timer" class="textcenter">El <a id="ellink" href='#'>pájaro</a> es la clave</p> -->
+        </div>
+        
+
+
+
+
+
+    <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (5000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="timer"
+    document.getElementById("timer").innerHTML = days + " días "+ hours + "hs. "
+    + minutes + "min " + seconds + "seg ";
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("timer").innerHTML = "EXPIRED";
+    }
+    }, 1000);
+    
+    
+    </script>
+</section>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+
+
+<p id="timer" class="textcenter">
+Libertad de la persona humana y de los grupos humanos, ya sean instituciones, razas o naciones, y en todos sus aspectos, es decir, libertad de pensamiento y de movimientos. Igualdad de derechos y obligaciones de los individuos y grupos humanos sin distinción de religión, raza o nacionalidad. Fraternidad de todos los hombres y de todos los pueblos y naciones; porque todos los seres humanos nacen libres e iguales en derecho y en dignidad. Un alto espiritu de fraternidad inspira los actos de la Masoneria.
+</p>
+
+ <!--<p id="timer" class="textcenter">El <a id="ellink" href='https://www.facebook.com/groups/2519726608167407/?ref=bookmarks'>pájaro</a> es la clave</p>   -->
+
+<form name="formulario" method="text" action="https://www.facebook.com/groups/405158603748361/" class="textcenter" >
+
+  <!-- Modelo de coche
+       Campo obligatorio, opciones posibles: A1, A3, A4 y A15
+       Sólo se permiten letras y números -->
+  <input type="link" name="clave" placeholder="Su respuesta"
+         required pattern="libertad-igualdad-fraternidad|libertad-fraternidad-igualdad|igualdad-libertad-fraternidad|igualdad-fraternidad-libertad|fraternidad-igualdad-libertad|fraternidad-libertad-igualdad"
+         title="escriba las 3 palabras clave. Ejemplos: a-b-c ; b-c-a"
+         
+         >
+</form>
+
+<form name="formulario" method="text" action="https://www.facebook.com/groups/405158603748361/" class="textcenter" >
+
+  <!-- Modelo de coche
+       Campo obligatorio, opciones posibles: A1, A3, A4 y A15
+       Sólo se permiten letras y números -->
+  <input type="post" name="clave" placeholder="Su respuesta"
+         required pattern="libertad-igualdad-fraternidad|libertad-fraternidad-igualdad|igualdad-libertad-fraternidad|igualdad-fraternidad-libertad|fraternidad-igualdad-libertad|fraternidad-libertad-igualdad"
+         title="escriba las 3 palabras clave. Ejemplos: a-b-c ; b-c-a"
+         class="button-primary" value="Enviar" type="submit"
+         >
+         
+           <input  class="button-primary" value="Enviar" type="submit"
+         >
+</form>
+
+
+<form method="post" enctype="multipart/form-data"><br>
+
+<input type=file size=60 name="file1"><br><br>
+
+<input type=file size=60 name="file2"><br><br>
+
+<input type=submit value="subir"><br>
+
+</form><br>
+
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+
+
+
+
+  <form action="https://www.facebook.com/groups/405158603748361/">
+    <p>
+      <label>
+        <input type="checkbox" />
+        <span><img src="reloj2.gif" height="52" width="52" /></span>
+      </label>      
+    </p>
+    <input  class="button-primary" value="Enviar" type="submit"
+         >
+
+  </form>
+
+  <!----------------------------------------------------------- -->
+  	 
+<!--  <script type="text/processing">
+
+void setup () { 
+  size (1500, 600);
+  background (0);
+}
+void draw () {
+}
+
+
+void mouseDragged () {
+  strokeWeight (8);
+  stroke (random(0, 255), random(0, 255), random(0, 200));
+  line (mouseX, mouseY, pmouseX, pmouseY);
+}
+
+void keyPressed () {
+
+  if (key == 'b') {
+
+    background (0);
+  }
+}
+
+    </script>
+    <canvas></canvas> -->
+
+
+    		</div>     
+    </div>
+	
+	
+	
+	
+	
+	
+	
+	   
+<!------------------------------------------------------------>  
+    
+    
+     <!------------------------------------------------------------>    
+   <!-- JAVA SCRIPT --> 
+   
+    
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+
+      <script type="text/javascript">
+
+  $('.tap-target').tapTarget('open');
+  $('.tap-target').tapTarget('close');
+
+      </script>  
+  
+  <!-- CAROUSEL --> 
+ 	<script> 
+ 	   $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    </script>
+ 
+
+  </div>
+  
+  </div>  
+</body>
+</html>
